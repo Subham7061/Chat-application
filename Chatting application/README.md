@@ -1,18 +1,65 @@
-## Getting Started
+<h3>Chat Application using Java Swing and Socket Programming</h3> 
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+<p>This is a simple chat application developed in Java using the Swing library for the graphical user interface (GUI) and socket programming for communication between clients and a server. This README will provide you with instructions on how to set up and run the chat application.</p>
 
-## Folder Structure
+## Table of Contents
+- [Features](#features)
+- [Requirements](#requirements)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+  
 
-The workspace contains two folders by default, where:
+## Features
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- Real-time chat functionality.
+- Users can send and receive messages.
+- User-friendly graphical user interface (GUI) built using Java Swing.
+- Server and client code are well-structured and modular.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Requirements
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Before you begin, ensure you have met the following requirements:
 
-## Dependency Management
+- Java Development Kit (JDK) 8 or higher installed on your system.
+- A basic understanding of Java and socket programming.
+- IDE of your choice (e.g., Eclipse, IntelliJ IDEA) for code editing and running.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Usage
+
+1. Clone the repository to your local machine:
+
+   ```
+   git clone https://github.com/yourusername/chat-application.git
+   ```
+
+2. Open your IDE and import the project.
+
+3. Open the `App.java`(Which is a server file) file in your IDE and run the server. By default, it will listen on port 12345. You can change the port in the code if needed.
+
+4. Open the `Client.java` file in your IDE and run the client. You can run multiple instances of the client to simulate multiple users.
+
+5. In the client GUI, enter your username and the server's IP address and port number. 
+
+6. Start chatting! You can send messages by typing in the text field at the bottom and pressing "Enter" or clicking the "Send" button.
+
+7. Messages sent by one client will be received by the connected clients through the server.
+
+8. To disconnect from the server, simply close the client application.
+
+## Project Structure
+
+The project structure is organized as follows:
+
+```
+chat-application/
+│
+├── src/
+│   ├──Image folder      #contains images used in GUI
+│   ├── App.java        # Server-side code
+│   └── Client.java        # Client-side code
+
+│
+├── README.md              # Project documentation
+└── ...
+```
+
