@@ -15,6 +15,8 @@
 - Users can send and receive messages.
 - User-friendly graphical user interface (GUI) built using Java Swing.
 - Server and client code are well-structured and modular.
+- <h2>GUI will be something like the image below</h2>
+- ![Screenshot 2023-09-03 100355](https://github.com/Subham7061/Chat-application/assets/126237416/738be160-063d-4c3b-82a6-402617cac0d1)
 
 ## Requirements
 
